@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">Segredos Conjugais</div>
+        </header>
+        <main>
+            <div class="input-section">
+                <label for="input-text">Digite sua Mensagem</label>
+                <textarea id="input-text" placeholder="Digite um texto que você deseja criptografar ou descriptografar..."></textarea>
+                    <div class="buttons">
+                        <button id="encrypt">Criptografar</button>
+                        <button id="decrypt">Descriptografar</button>
+                        <button id="delete">Limpar</button>
+                    </div>
+            </div>
+            <div class="output-section">
+                <img id="output-image" src="./assets/secrete.jpg" alt="Nenhuma mensagem encontrada">
+                <p class="output-message">Nenhuma mensagem encontrada</p>
+                <p class="output-instruction"></p>
+                <textarea id="output-text" readonly></textarea>
+                <button id="copy-btn">Copiar</button>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
